@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1019338046829-krj3nm7rg2cap49vfepc7f4naa0h1tjv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1019338046829-krj3nm7rg2cap49vfepc7f4naa0h1tjv</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Elinium.MondayJobs</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1019338046829-3j535o7mbaqlea8dmtqifvl8rks0jni0.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBGRoRHiVrC1asBrI0S-C6tpxxr-IUdKtE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1019338046829</string>
+	<key>PROJECT_ID</key>
+	<string>mondayjobs-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mondayjobs-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1019338046829:ios:35b2d3b10a0512df7fee64</string>
+	<key>DATABASE_URL</key>
+	<string>https://mondayjobs-dev.firebaseio.com</string>
+</dict>
+</plist>

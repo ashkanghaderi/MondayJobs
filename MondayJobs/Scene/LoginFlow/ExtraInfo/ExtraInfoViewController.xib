@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExtraInfoViewController" customModule="MondayJobs" customModuleProvider="target">
+            <connections>
+                <outlet property="headerHeightCons" destination="Wrg-N5-n7r" id="0Bc-iB-SSt"/>
+                <outlet property="headerView" destination="vXP-Wh-LoQ" id="VqA-qP-YmL"/>
+                <outlet property="imageContainerView" destination="I0f-1x-otF" id="W6g-d3-Hfp"/>
+                <outlet property="jobTextView" destination="whj-Kz-tYn" id="L14-gC-GDi"/>
+                <outlet property="personImageView" destination="ypC-la-ht7" id="JYH-y9-NFe"/>
+                <outlet property="personNamelabel" destination="TcS-1Y-DdA" id="rnK-Uk-Zkf"/>
+                <outlet property="registerBtn" destination="qfE-JA-LO0" id="bpu-e8-ujC"/>
+                <outlet property="registerWidthCons" destination="FJP-CF-eae" id="a9l-nj-cPo"/>
+                <outlet property="tasBtn" destination="KjA-N6-SIZ" id="ctH-9A-kni"/>
+                <outlet property="tasLabel" destination="p3q-eK-89u" id="UFy-xJ-hUQ"/>
+                <outlet property="tasSegueBtn" destination="eA1-jQ-uBH" id="NN8-gj-tOg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="workPermitBtn" destination="nJI-gI-IB4" id="X8E-l7-UpN"/>
+                <outlet property="workPermitLabel" destination="Tj4-7H-TU8" id="0Lv-3J-gXO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vXP-Wh-LoQ" customClass="BorderedView" customModule="MondayJobs" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="-35" width="414" height="175"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mondayjobs-wht" translatesAutoresizingMaskIntoConstraints="NO" id="093-ab-jdp">
+                            <rect key="frame" x="102" y="70" width="210" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="dUQ-6j-Qri"/>
+                            </constraints>
+                        </imageView>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I0f-1x-otF" customClass="BorderedView" customModule="MondayJobs" customModuleProvider="target">
+                            <rect key="frame" x="162" y="122" width="90" height="90"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ypC-la-ht7">
+                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="ypC-la-ht7" secondAttribute="bottom" id="84U-8a-LDp"/>
+                                <constraint firstItem="ypC-la-ht7" firstAttribute="top" secondItem="I0f-1x-otF" secondAttribute="top" id="S1F-RT-822"/>
+                                <constraint firstItem="ypC-la-ht7" firstAttribute="leading" secondItem="I0f-1x-otF" secondAttribute="leading" id="UiN-EA-ySu"/>
+                                <constraint firstAttribute="trailing" secondItem="ypC-la-ht7" secondAttribute="trailing" id="VRW-QT-az5"/>
+                                <constraint firstAttribute="height" constant="90" id="fIw-fw-eMc"/>
+                                <constraint firstAttribute="width" constant="90" id="uU6-hS-ZPb"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TcS-1Y-DdA">
+                            <rect key="frame" x="186.5" y="81.5" width="41.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                    <constraints>
+                        <constraint firstItem="TcS-1Y-DdA" firstAttribute="centerX" secondItem="vXP-Wh-LoQ" secondAttribute="centerX" id="JoB-Zu-JVR"/>
+                        <constraint firstAttribute="bottom" secondItem="I0f-1x-otF" secondAttribute="bottom" constant="-37" id="QQg-rW-pNe"/>
+                        <constraint firstAttribute="height" constant="175" id="Wrg-N5-n7r"/>
+                        <constraint firstItem="I0f-1x-otF" firstAttribute="top" secondItem="TcS-1Y-DdA" secondAttribute="bottom" constant="20" id="Z85-3Y-3kT"/>
+                        <constraint firstAttribute="trailing" secondItem="093-ab-jdp" secondAttribute="trailing" constant="102" id="ibp-fx-0su"/>
+                        <constraint firstItem="093-ab-jdp" firstAttribute="leading" secondItem="vXP-Wh-LoQ" secondAttribute="leading" constant="102" id="tCb-df-AYg"/>
+                        <constraint firstItem="I0f-1x-otF" firstAttribute="centerX" secondItem="vXP-Wh-LoQ" secondAttribute="centerX" id="u8s-sW-aLf"/>
+                        <constraint firstItem="093-ab-jdp" firstAttribute="top" secondItem="vXP-Wh-LoQ" secondAttribute="top" constant="70" id="uqY-V2-y9U"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="42"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="GFz-bR-bES">
+                    <rect key="frame" x="45" y="250" width="324" height="234"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="r9r-RJ-b2L">
+                            <rect key="frame" x="0.0" y="0.0" width="324" height="50"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="nct-eR-I8M">
+                                    <rect key="frame" x="0.0" y="0.0" width="324" height="50"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="whj-Kz-tYn" customClass="MaterialTextField" customModule="MondayJobs" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="324" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="SeA-8a-O8R"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="nct-eR-I8M" secondAttribute="trailing" id="13e-YH-bcs"/>
+                                <constraint firstItem="nct-eR-I8M" firstAttribute="leading" secondItem="r9r-RJ-b2L" secondAttribute="leading" id="qAS-uA-MLQ"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="spo-JK-nM3">
+                            <rect key="frame" x="0.0" y="80" width="324" height="74"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ASu-sZ-nxY">
+                                    <rect key="frame" x="0.0" y="0.0" width="83.5" height="32"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJI-gI-IB4" customClass="CheckBox" customModule="MondayJobs" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="32" id="Qkb-wj-yPb"/>
+                                                <constraint firstAttribute="width" constant="32" id="YoR-DX-6PO"/>
+                                            </constraints>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tj4-7H-TU8">
+                                            <rect key="frame" x="42" y="0.0" width="41.5" height="32"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="32" id="wBY-9y-YwC"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="akv-Vx-0LA">
+                                    <rect key="frame" x="0.0" y="42" width="131.5" height="32"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KjA-N6-SIZ" customClass="CheckBox" customModule="MondayJobs" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="32" id="OLi-CT-TEl"/>
+                                                <constraint firstAttribute="width" constant="32" id="YYD-cE-Tn7"/>
+                                            </constraints>
+                                        </button>
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oMv-Tq-W8C">
+                                            <rect key="frame" x="44" y="0.0" width="87.5" height="32"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3q-eK-89u">
+                                                    <rect key="frame" x="0.0" y="0.0" width="41.5" height="32"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="32" id="iXI-7g-l6R"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eA1-jQ-uBH">
+                                                    <rect key="frame" x="41.5" y="0.0" width="46" height="32"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="32" id="Uho-g5-rzy"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfE-JA-LO0" customClass="BorderedButton" customModule="MondayJobs" customModuleProvider="target">
+                            <rect key="frame" x="92" y="184" width="140" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="7NZ-Ve-HsX"/>
+                                <constraint firstAttribute="width" constant="140" id="FJP-CF-eae"/>
+                            </constraints>
+                            <state key="normal" title="Done"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="spo-JK-nM3" secondAttribute="trailing" id="8vP-QG-gru"/>
+                        <constraint firstItem="r9r-RJ-b2L" firstAttribute="leading" secondItem="GFz-bR-bES" secondAttribute="leading" id="IYU-kR-9IQ"/>
+                        <constraint firstAttribute="trailing" secondItem="r9r-RJ-b2L" secondAttribute="trailing" id="YUr-U2-Z3B"/>
+                        <constraint firstItem="spo-JK-nM3" firstAttribute="leading" secondItem="GFz-bR-bES" secondAttribute="leading" id="Zwx-Q6-cdl"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="GFz-bR-bES" firstAttribute="top" secondItem="vXP-Wh-LoQ" secondAttribute="bottom" constant="110" id="6WA-5d-XZE"/>
+                <constraint firstItem="GFz-bR-bES" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="45" id="RCB-Ut-iqk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GFz-bR-bES" secondAttribute="trailing" constant="45" id="W1u-AD-K9t"/>
+                <constraint firstItem="vXP-Wh-LoQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-35" id="ZyB-eU-LP8"/>
+                <constraint firstItem="vXP-Wh-LoQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dD0-1D-0h6"/>
+                <constraint firstAttribute="trailing" secondItem="vXP-Wh-LoQ" secondAttribute="trailing" id="k3U-Ob-kVC"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="110.49107142857143"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="qfE-JA-LO0">
+            <size key="intrinsicContentSize" width="37" height="30"/>
+        </designable>
+        <designable name="whj-Kz-tYn">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="mondayjobs-wht" width="208.5" height="51"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "HallPanelTableViewCell.bind(model:):HallPanelTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.imageDataSource.count">
+            </PersistentString>
+            <PersistentString
+               value = "model.agentImageList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #2 in closure #1 in Network.uploadFile&lt;A&gt;(file:url:param:fileType:):Network.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in OAuthInterceptor.refreshTokens(session:completion:):OAuthInterceptor.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.value as? [String: Any]">
+            </PersistentString>
+            <PersistentString
+               value = "response.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.createReminder():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.exhibitionDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchResultsView.tableView(_:cellForRowAt:):SearchResultsView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "state.Panels">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in OnBoardingViewController.bindData():OnBoardingViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIView(SVGNamed: item.imageId!)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AuthorizationService.updateProfile(_:):AuthorizationService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Parameters.toJSON()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in RegisterViewController.errorBinding.getter:RegisterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(error as! EliniumError).failureReason">
+            </PersistentString>
+            <PersistentString
+               value = "eError.localization">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LandingViewController.sign(_:didSignInFor:withError:):LandingViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "result.is_new ">
+            </PersistentString>
+            <PersistentString
+               value = "result.is_active">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #2 in HomeViewController.bindData():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = " self.hallDataSource">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CompanyViewController.CompanyBinding.getter:CompanyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "company.logoUrl">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Network.getItem&lt;A&gt;(_:itemId:):Network.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.sharedHeaders">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Network.tokenString.getter:Network.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "AuthorizationInfo.get(by: &quot;jwt_token&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "AuthorizationInfo.get(by: &quot;jwtToken&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #3 in HomeViewController.bindData():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.isRunning">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TabViewController.numberOfViewControllers(in:):TabViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewControllers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ProfileViewController.ProfileBinding.getter:ProfileViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "profile.avatarUrl ">
+            </PersistentString>
+            <PersistentString
+               value = "profile.resumeFileName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in JobsTableViewCell.bind(_:):JobsTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dataSource?.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static AuthorizationInfo.isAuth():AuthorizationInfo.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "keychain[&quot;jwtToken&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "jobDescViewCell.isSelected.didset:jobDescViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "isSelected">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HallPanelViewController.tableView(_:numberOfRowsInSection:):HallPanelViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dataSource">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.tableView(_:cellForRowAt:):HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "hallDataSource">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #1 in Network.uploadFile&lt;A&gt;(file:url:param:fileType:):Network.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in VideoViewController.connect(token:roomId:):VideoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.localAudioTrack">
+            </PersistentString>
+            <PersistentString
+               value = "VideoSettings.shared.audioCodec">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Network.postItem&lt;A&gt;(url:param:method:encoding:):Network.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.sharedHeaders">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in Network.getItem&lt;A&gt;(_:itemId:):Network.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.sharedHeaders">
+            </PersistentString>
+            <PersistentString
+               value = "value">
+            </PersistentString>
+            <PersistentString
+               value = "value.display_message">
+            </PersistentString>
+            <PersistentString
+               value = "error.localizedDescription">
+            </PersistentString>
+            <PersistentString
+               value = "error.errorDescription">
+            </PersistentString>
+            <PersistentString
+               value = "response.result">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in HomeViewController.searchPanels(_:completion:):HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "panel.jobTitles">
+            </PersistentString>
+            <PersistentString
+               value = "panel.companyName">
+            </PersistentString>
+            <PersistentString
+               value = "panel.companyDesc">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "OAuthInterceptor.retry(_:for:dueTo:completion:):OAuthInterceptor.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.statusCode">
+            </PersistentString>
+            <PersistentString
+               value = "urlRequest.headers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchTableViewCell.startLoading():SearchTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contentView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CompanyViewController.didSelectJob(model:):CompanyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model.descriptionEn">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchTableViewCell.textFieldDidEndEditing(_:):SearchTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "searchResultsView.isScrolling">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SearchResultsView.tableView(_:heightForRowAt:):SearchResultsView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "rowHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileViewController.onPreviewResume(_:):ProfileViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.currentResumeURL!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TabViewController.viewDidLoad():TabViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewControllers">
+            </PersistentString>
+            <PersistentString
+               value = "hallDataSource">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ResultCell.configure(_:):ResultCell.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

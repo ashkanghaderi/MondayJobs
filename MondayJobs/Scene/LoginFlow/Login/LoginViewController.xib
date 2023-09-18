@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="MondayJobs" customModuleProvider="target">
+            <connections>
+                <outlet property="backBtn" destination="pz9-EK-BJd" id="Yu5-bK-2AI"/>
+                <outlet property="contentTopCons" destination="bEU-we-dvQ" id="UkP-7h-lyC"/>
+                <outlet property="emailTextView" destination="VS1-rO-cLo" id="y92-F5-BT3"/>
+                <outlet property="forgotPassBtn" destination="Em2-5H-m23" id="QIM-sa-DLg"/>
+                <outlet property="headerHeightCons" destination="GQS-Ck-SNL" id="azN-J2-JXD"/>
+                <outlet property="headerView" destination="3MB-49-6h2" id="5ku-Iw-lHU"/>
+                <outlet property="loginBtn" destination="86U-Ys-2Eu" id="clL-kJ-22A"/>
+                <outlet property="passwordShowBtn" destination="No7-6i-B95" id="Ygq-3a-cMv"/>
+                <outlet property="passwordTextView" destination="M6m-Ls-OYy" id="pYF-8I-yT3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3MB-49-6h2" customClass="BorderedView" customModule="MondayJobs" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="-1" width="414" height="170"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mondayjobs-wht" translatesAutoresizingMaskIntoConstraints="NO" id="R1p-dZ-haP">
+                            <rect key="frame" x="102" y="62.5" width="210" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="EDo-V1-z4S"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pz9-EK-BJd">
+                            <rect key="frame" x="16" y="73" width="24" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="ci8-Qj-1C7"/>
+                                <constraint firstAttribute="height" constant="24" id="gcU-Bz-B8x"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="arrow-left">
+                                <color key="titleColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.44313725490196076" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="R1p-dZ-haP" secondAttribute="trailing" constant="102" id="BXX-kp-XD9"/>
+                        <constraint firstItem="R1p-dZ-haP" firstAttribute="leading" secondItem="3MB-49-6h2" secondAttribute="leading" constant="102" id="DC3-wO-nQa"/>
+                        <constraint firstAttribute="height" constant="170" id="GQS-Ck-SNL"/>
+                        <constraint firstItem="R1p-dZ-haP" firstAttribute="centerY" secondItem="3MB-49-6h2" secondAttribute="centerY" id="Wny-Ft-luA"/>
+                        <constraint firstItem="pz9-EK-BJd" firstAttribute="centerY" secondItem="3MB-49-6h2" secondAttribute="centerY" id="h0F-B5-auh"/>
+                        <constraint firstItem="pz9-EK-BJd" firstAttribute="leading" secondItem="3MB-49-6h2" secondAttribute="leading" constant="16" id="skI-zP-soa"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="32"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="X0K-Qu-dDd">
+                    <rect key="frame" x="45" y="229" width="324" height="282"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="tvZ-Qp-v4E">
+                            <rect key="frame" x="0.0" y="0.0" width="324" height="116"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VS1-rO-cLo" customClass="MaterialTextField" customModule="MondayJobs" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="324" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="obt-7j-TjN"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cTA-yE-Yfq">
+                                    <rect key="frame" x="0.0" y="66" width="324" height="50"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M6m-Ls-OYy" customClass="MaterialTextField" customModule="MondayJobs" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="324" height="50"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="No7-6i-B95">
+                                            <rect key="frame" x="288" y="18" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="KX2-l1-RFh"/>
+                                                <constraint firstAttribute="width" constant="20" id="mtD-nJ-6dt"/>
+                                            </constraints>
+                                            <state key="normal" image="password-show"/>
+                                            <connections>
+                                                <action selector="refresh:" destination="-1" eventType="touchUpInside" id="j8F-4C-7Xx"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="M6m-Ls-OYy" secondAttribute="bottom" id="B5n-GM-mPO"/>
+                                        <constraint firstAttribute="height" constant="50" id="FgT-LG-KvQ"/>
+                                        <constraint firstAttribute="trailing" secondItem="No7-6i-B95" secondAttribute="trailing" constant="16" id="ZGV-de-auq"/>
+                                        <constraint firstItem="M6m-Ls-OYy" firstAttribute="leading" secondItem="cTA-yE-Yfq" secondAttribute="leading" id="ZPu-j5-pe0"/>
+                                        <constraint firstItem="M6m-Ls-OYy" firstAttribute="top" secondItem="cTA-yE-Yfq" secondAttribute="top" id="aoh-Vg-knK"/>
+                                        <constraint firstItem="No7-6i-B95" firstAttribute="centerY" secondItem="cTA-yE-Yfq" secondAttribute="centerY" constant="3" id="fsI-tV-ZEV"/>
+                                        <constraint firstAttribute="trailing" secondItem="M6m-Ls-OYy" secondAttribute="trailing" id="zea-1a-ViV"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="afN-Hm-gJj">
+                            <rect key="frame" x="0.0" y="166" width="324" height="116"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86U-Ys-2Eu" customClass="BorderedButton" customModule="MondayJobs" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="324" height="56"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="56" id="7xH-ok-p3P"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Em2-5H-m23">
+                                    <rect key="frame" x="0.0" y="86" width="324" height="30"/>
+                                    <state key="normal" title="Forgot password?"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="X0K-Qu-dDd" secondAttribute="trailing" constant="45" id="7l8-vl-lkL"/>
+                <constraint firstItem="3MB-49-6h2" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="-45" id="GDr-P6-wM6"/>
+                <constraint firstItem="X0K-Qu-dDd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="45" id="UXD-0f-Js2"/>
+                <constraint firstItem="X0K-Qu-dDd" firstAttribute="top" secondItem="3MB-49-6h2" secondAttribute="bottom" constant="60" id="bEU-we-dvQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3MB-49-6h2" secondAttribute="trailing" id="fNs-3I-suK"/>
+                <constraint firstItem="3MB-49-6h2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="kAl-32-mny"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="134"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="86U-Ys-2Eu">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="M6m-Ls-OYy">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+        <designable name="VS1-rO-cLo">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="arrow-left" width="48" height="48"/>
+        <image name="mondayjobs-wht" width="208.5" height="51"/>
+        <image name="password-show" width="20" height="16"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

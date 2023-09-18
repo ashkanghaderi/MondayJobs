@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IRANYekanLight.ttf">
+            <string>IRANYekan-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cOf-sx-KMp" customClass="SnackBarViewWithTimer" customModule="DigiPay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAk-zw-qdi">
+                    <rect key="frame" x="287" y="8" width="80" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="XFw-85-eo1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="بازنشانی">
+                        <color key="titleColor" red="0.23921568630000001" green="0.31764705879999999" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                    <connections>
+                        <action selector="pressedUserActionButton:" destination="cOf-sx-KMp" eventType="touchUpInside" id="Yav-UO-hDn"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="FbH-fl-lke">
+                    <rect key="frame" x="48" y="8" width="231" height="32"/>
+                    <fontDescription key="fontDescription" name="IRANYekan-Light" family="IRANYekan" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kbq-JX-rnt" customClass="UICircularProgressRing" customModule="DigiPay" customModuleProvider="target">
+                    <rect key="frame" x="8" y="8" width="32" height="32"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="kbq-JX-rnt" secondAttribute="height" multiplier="1:1" id="LSh-wD-BkU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PAk-zw-qdi" firstAttribute="leading" secondItem="FbH-fl-lke" secondAttribute="trailing" constant="8" symbolic="YES" id="09c-RE-93a"/>
+                <constraint firstItem="kbq-JX-rnt" firstAttribute="leading" secondItem="Ern-7w-CLo" secondAttribute="leading" constant="8" id="346-U2-p3g"/>
+                <constraint firstItem="FbH-fl-lke" firstAttribute="top" secondItem="PAk-zw-qdi" secondAttribute="top" id="Bek-db-tGT"/>
+                <constraint firstItem="Ern-7w-CLo" firstAttribute="bottom" secondItem="kbq-JX-rnt" secondAttribute="bottom" constant="8" id="LI5-SF-OIf"/>
+                <constraint firstItem="FbH-fl-lke" firstAttribute="top" secondItem="kbq-JX-rnt" secondAttribute="top" id="S0i-pA-haF"/>
+                <constraint firstItem="kbq-JX-rnt" firstAttribute="top" secondItem="Ern-7w-CLo" secondAttribute="top" constant="8" id="jzu-xf-3ge"/>
+                <constraint firstItem="Ern-7w-CLo" firstAttribute="trailing" secondItem="PAk-zw-qdi" secondAttribute="trailing" constant="8" id="n4m-0H-RTv"/>
+                <constraint firstItem="FbH-fl-lke" firstAttribute="bottom" secondItem="kbq-JX-rnt" secondAttribute="bottom" id="oA5-BQ-m3a"/>
+                <constraint firstItem="FbH-fl-lke" firstAttribute="bottom" secondItem="PAk-zw-qdi" secondAttribute="bottom" id="q21-L6-vcw"/>
+                <constraint firstItem="FbH-fl-lke" firstAttribute="leading" secondItem="kbq-JX-rnt" secondAttribute="trailing" constant="8" symbolic="YES" id="rL5-F4-gLn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Ern-7w-CLo"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="background">
+                    <color key="value" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="progressRing" destination="kbq-JX-rnt" id="H6p-sC-xHQ"/>
+                <outlet property="titleLabel" destination="FbH-fl-lke" id="UZF-qX-Fcj"/>
+                <outlet property="userActionButton" destination="PAk-zw-qdi" id="09X-7p-tQh"/>
+            </connections>
+            <point key="canvasLocation" x="32.799999999999997" y="53.973013493253376"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  MondayJobs
+
+  Created by Ashkan Ghaderi on 10/20/20.
+  Copyright © 2020 Elinium. All rights reserved.
+*/
+
+"app_name" = "MondayJobs";
+"title_home" = "Home";
+"title_chat" = "Chat";
+"title_notifications" = "Notifications";
+"title_profile" = "Profile";
+"an_error_happened" = "An error happened, please retry !";
+"provide_email" = "Please enter a valid email";
+"provide_name" = "Name is required";
+"provide_pass" = "Password is not specified";
+"provide_jobTitle" = "Please specify your job title";
+"error_no_activation_code" = "Sorry!, Something went wrong, please try again";
+"tos_not_accepted" = "Sorry, you should read and accept Terms of Service";
+"provide_work_permit" = "Sorry, you should have a Canadian work permit";
+"email_about_forgot_pass_sent" = "To reset your password check your email!";
+"pass_and_confirm_dont_match" = "Password and Confirm don\'t match";
+"enter_both_password_confirm" = "Enter both Password and Confirm";
+"go_home" = "Go To Home Page";
+"by_google" = "Continue with Google";
+"by_linkdin" = "Continue with Linkedin";
+"or" = "Or";
+"register_with" = "Register with";
+"another_account" = "another email";
+"have_account" = "Do you have an account?";
+"log_in" = "Log in";
+"name_Invalid" = "Please enter a valid name";
+"pass_has_digits" = "Contain numbers";
+"pass_count_8" = "Be at least 8 characters";
+"pass_has_capital" = "Be a mixture of lower and upper cases";
+"pass_has_special" = "Contain special characters";
+"register_name" = "Name";
+"register_job" = "Job Title";
+"register_email" = "Email";
+"register_pass" = "Password";
+"work_permit_label" = "I have work permit to work in Canada.";
+"tas_label" = "I agree to the ";
+"tas_segue_label" = "terms of service.";
+"register_title" = "Register";
+"login_label" = "Do you have an account?";
+"login_title" = "Log in";
+"internet_lost" = "You have lost your internet connection!";
+"retry_title" = "Try again";
+"password_should" = "Password should:";
+"forgot_password" = "Forgot password?";
+"reset_pass_title" = "Reset password";
+"new_pass" = "New password";
+"confirm_pass" = "Confirm password";
+"reset_title" = "Reset";
+"cancel_title" = "Cancel";
+"pass_rePass_notMatch" = "Password confirmation doesn't match Password";
+"done_title" = "Done";
+"search_title" = "Search";
+"sugesstion_title" = "Sugesstion for you";
+"continue_title" = "Continue";
+"company_profile" = "Company profile";
+"done_title"="Done";
+"profile_title"="Profile";
+"change_image_title"="Change Profile Photo";
+"name_title"="Name";
+"pitch_title"="Pitch text";
+"job_title"="Job title";
+"email_title"="Email";
+"linkedin_title"="Linkedin";
+"cv_title"="Resume";
+"share_linkedin_title"="Share my linkedin automatically";
+"share_resume_title"="Share my resume when i join the room";
+"logout_title"="Logout";
+"upload_resume_title"="Upload";
+"exhibition_not_running"="Exhibition is not running";
